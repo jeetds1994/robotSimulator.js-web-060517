@@ -18,7 +18,7 @@ describe("Robot", function() {
       robot.orient("crood");
     }).toThrow(new Error("Invalid Robot Bearing"));
   });
-
+  
   it("turn right from north", function() {
     robot.orient('north');
     robot.turnRight();
